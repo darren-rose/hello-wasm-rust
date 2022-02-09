@@ -1,0 +1,16 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>hello wasm</title>
+</head>
+
+<body>
+    <script type="module">
+        import init, { add } from './pkg/hello_wasm.js'
+        await init()
+        console.log('wasm add(53, 6) is', add(53, 6))
+    </script>
+</body>
+
+</html>
