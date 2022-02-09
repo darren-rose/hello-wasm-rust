@@ -14,7 +14,8 @@ An example wasm module using Rust.
 
 `python3 -m http.server`
 
-### visit localhost and view console
+### test
 
-http://localhost:8000/
+Go to http://localhost:8000/ and view console
+
 
